@@ -2,7 +2,7 @@
 
 AdapTable Angular Support Ticket Template
 
-This is a barebones [AdapTable(https://www.adaptabletools.com/)] integration in an Angular application.
+This is a barebones [AdapTable](https://www.adaptabletools.com/) integration in an Angular application.
 
 This template is particularly useful if you wish to build a very small demo for Support purposes.
 
