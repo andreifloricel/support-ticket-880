@@ -3,14 +3,14 @@
 /**
  *      AG Grid styles
  */
-@import '~@ag-grid-community/core/dist/styles/ag-grid.css';
-@import '~@ag-grid-community/core/dist/styles/ag-theme-alpine.css';
-@import '~@ag-grid-community/core/dist/styles/ag-theme-alpine-dark.css';
-@import '~@ag-grid-community/core/dist/styles/ag-theme-balham.css';
-@import '~@ag-grid-community/core/dist/styles/ag-theme-balham-dark.css';
+@import '@ag-grid-community/core/dist/styles/ag-grid.css';
+@import '@ag-grid-community/core/dist/styles/ag-theme-alpine.css';
+@import '@ag-grid-community/core/dist/styles/ag-theme-alpine-dark.css';
+@import '@ag-grid-community/core/dist/styles/ag-theme-balham.css';
+@import '@ag-grid-community/core/dist/styles/ag-theme-balham-dark.css';
 
 /**
  *      Adaptable styles
  */
-@import '~@adaptabletools/adaptable-angular-aggrid/index.css';
-@import '~@adaptabletools/adaptable-angular-aggrid/themes/dark.css';
+@import '@adaptabletools/adaptable-angular-aggrid/index.css';
+@import '@adaptabletools/adaptable-angular-aggrid/themes/dark.css';

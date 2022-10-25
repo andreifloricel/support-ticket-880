@@ -24,6 +24,10 @@ export class AppComponent {
     // licenseKey: <add_provided_license_key>,
     adaptableId: 'AdapTable Angular App',
 
+    layoutOptions: {
+      autoSizeColumnsInLayout: true,
+    },
+
     predefinedConfig: {
       Dashboard: {
         Revision: Date.now(),
