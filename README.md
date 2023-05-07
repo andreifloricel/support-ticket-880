@@ -55,7 +55,7 @@ General information about Adaptable Tools is available at our [Website](http://w
  
 ## Support
 
-For all support enquiries please email [`support@adaptabletools.com`](mailto:support@adaptabletools.com) or [raise a Support Ticket](https://adaptabletools.zendesk.com/hc/en-us/requests/new).
+For all support enquiries please [raise a Support Ticket](https://adaptabletools.zendesk.com/hc/en-us/requests/new).
 
 
 
