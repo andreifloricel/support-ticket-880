@@ -2,7 +2,7 @@
 
 This is a very basic example of how to get started with AdapTable Angular.
 
-AdapTable Angular is the Angular Framework version of AdapTable - the market-leading, low code AG Grid Add-On.
+AdapTable Angular is the Angular Framework version of AdapTable - the market-leading, low code AG Grid extension.
 
 This template is particularly useful if you wish to build a very small demo for Support purposes.
 
@@ -31,7 +31,7 @@ $ npm run start
 
 ## Licences
 
-An AdapTable Licence provides access to all product features as well as quarterly updates and enhancements through the lifetime of the licence, comprehensive support, and access to all 3rd party libraries.
+An [AdapTable Licence](https://docs.adaptabletools.com/guide/licensing) provides access to all product features as well as quarterly updates and enhancements through the lifetime of the licence, comprehensive support, and access to all 3rd party libraries.
 
 Licences can be purchased individually, for a team, for an organisation or for integration into software for onward sale.
 
