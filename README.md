@@ -1,4 +1,4 @@
-# AdapTable Angular Template
+# AdapTable Angular Support Template
 
 This is a very basic example of how to get started with AdapTable Angular.
 
