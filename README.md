@@ -17,9 +17,7 @@ The demo is built using these key packages:
 
 ## Contents
 
-This template contains the bare bones required to set up an AdapTable instance.  
-
-Real world AdapTable instances would likely include:
+This template contains the bare bones required to set up an AdapTable instance. A "real world" example would likely include:
 
 - Design-time - providing [Adaptable Options](https://docs.adaptabletools.com/guide/reference-options-overview) and [Predefined Config](https://docs.adaptabletools.com/guide/reference-config-overview) to configure the application
 - Run-time - using the [Adaptable API](https://docs.adaptabletools.com/guide/reference-api-overview) and listenting to [Adaptable Events](https://docs.adaptabletools.com/guide/reference-event-overview)
