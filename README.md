@@ -15,6 +15,18 @@ The demo is built using these key packages:
 - [AdapTable](https://docs.adaptabletools.com/) version 15.x
 - [AG Grid](https://www.ag-grid.com) version 29.x
 
+## Contents
+
+This template contains the bare bones required to set up an AdapTable instance.  
+
+Real world AdapTable instances would likely include provding at design-time:
+
+- [Adaptable Options](https://docs.adaptabletools.com/guide/reference-options-overview) to configure the application
+- [Predefined Config](https://docs.adaptabletools.com/guide/reference-config-overview) to set up the application for first use
+
+And at run-time
+- Using the [Adaptable API](https://docs.adaptabletools.com/guide/reference-api-overview) 
+- listenting to [Adaptable Events](https://docs.adaptabletools.com/guide/reference-event-overview)
 
 ### Installation
 
