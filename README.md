@@ -1,8 +1,8 @@
-# AdapTable Angular Template
+# AdapTable Angular Support Template
 
 This is a very basic example of how to get started with AdapTable Angular.
 
-AdapTable Angular is the Angular Framework version of AdapTable - the market-leading, low code AG Grid Add-On.
+AdapTable Angular is the Angular Framework version of AdapTable - the market-leading, low code AG Grid extension.
 
 This template is particularly useful if you wish to build a very small demo for Support purposes.
 
@@ -15,6 +15,12 @@ The demo is built using these key packages:
 - [AdapTable](https://docs.adaptabletools.com/) version 15.x
 - [AG Grid](https://www.ag-grid.com) version 29.x
 
+## Contents
+
+This template contains the bare bones required to set up an AdapTable instance. A "real world" example would likely include:
+
+- Design-time - providing [Adaptable Options](https://docs.adaptabletools.com/guide/reference-options-overview) and [Predefined Config](https://docs.adaptabletools.com/guide/reference-config-overview) to configure the application
+- Run-time - using the [Adaptable API](https://docs.adaptabletools.com/guide/reference-api-overview) and listenting to [Adaptable Events](https://docs.adaptabletools.com/guide/reference-event-overview)
 
 ### Installation
 
@@ -31,7 +37,7 @@ $ npm run start
 
 ## Licences
 
-An AdapTable Licence provides access to all product features as well as quarterly updates and enhancements through the lifetime of the licence, comprehensive support, and access to all 3rd party libraries.
+An [AdapTable Licence](https://docs.adaptabletools.com/guide/licensing) provides access to all product features as well as quarterly updates and enhancements through the lifetime of the licence, comprehensive support, and access to all 3rd party libraries.
 
 Licences can be purchased individually, for a team, for an organisation or for integration into software for onward sale.
 
@@ -55,7 +61,7 @@ General information about Adaptable Tools is available at our [Website](http://w
  
 ## Support
 
-For all support enquiries please email [`support@adaptabletools.com`](mailto:support@adaptabletools.com) or [raise a Support Ticket](https://adaptabletools.zendesk.com/hc/en-us/requests/new).
+For all support enquiries please [raise a Support Ticket](https://adaptabletools.zendesk.com/hc/en-us/requests/new).
 
 
 
