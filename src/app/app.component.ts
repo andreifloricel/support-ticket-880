@@ -6,7 +6,7 @@ import {
 } from '@adaptabletools/adaptable-angular-aggrid';
 import { rowData } from './rowData';
 import { RECOMMENDED_MODULES } from './agGridModules';
-import { columnDefs, defaultColDef } from './columnDefs';
+import { columnDefs } from './columnDefs';
 
 @Component({
   selector: 'my-app',
@@ -19,37 +19,14 @@ export class AppComponent {
   public gridOptions: GridOptions;
 
   public adaptableOptions: AdaptableOptions = {
-    primaryKey: 'tradeId',
+    primaryKey: 'id',
     userName: 'demo-user',
     // licenseKey: <add_provided_license_key>,
     adaptableId: 'AdapTable Angular App',
-
-    layoutOptions: {
-      autoSizeColumnsInLayout: true,
-    },
-
-    predefinedConfig: {
-      Dashboard: {
-        Revision: Date.now(),
-        ModuleButtons: ['SettingsPanel'],
-      },
-    },
   };
 
   constructor() {
     this.gridOptions = {
-      enableCharts: true,
-      enableRangeSelection: true,
-      sideBar: ['adaptable', 'columns', 'filters'],
-      suppressMenuHide: true,
-      singleClickEdit: true,
-      statusBar: {
-        statusPanels: [
-          { statusPanel: 'agTotalRowCountComponent', align: 'left' },
-          { statusPanel: 'agFilteredRowCountComponent' },
-        ],
-      },
-      defaultColDef,
       columnDefs,
       rowData,
     };

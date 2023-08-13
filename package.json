@@ -9,7 +9,7 @@
   },
   "private": true,
   "dependencies": {
-    "@adaptabletools/adaptable-angular-aggrid": "16.0.0-canary.9",
+    "@adaptabletools/adaptable-angular-aggrid": "16.0.0",
     "@ag-grid-community/angular": "30.0.6",
     "@ag-grid-community/client-side-row-model": "30.0.6",
     "@ag-grid-community/core": "30.0.6",
