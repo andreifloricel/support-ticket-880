@@ -23,6 +23,17 @@ export class AppComponent {
     userName: 'demo-user',
     // licenseKey: <add_provided_license_key>,
     adaptableId: 'AdapTable Angular App',
+    predefinedConfig: {
+      Dashboard: {
+        Revision: Date.now(),
+        Tabs: [
+          {
+            Name: 'Default',
+            Toolbars: ['Layout', 'Query'],
+          },
+        ],
+      },
+    },
   };
 
   constructor() {
