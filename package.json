@@ -5,7 +5,8 @@
   "scripts": {
     "ng": "ng",
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng serve",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng build --configuration production"
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng build --configuration production",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json,css,scss,md}\""
   },
   "dependencies": {
     "@adaptabletools/adaptable-angular-aggrid": "^17.0.0-canary.11",

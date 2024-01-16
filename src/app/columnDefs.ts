@@ -105,7 +105,11 @@ export const columnDefs: ColDef<WebFramework>[] = [
     type: 'abColDefNumber',
     enableValue: true,
   },
-  { field: 'has_projects', headerName: 'Has Projects', type: 'abColDefBoolean' },
+  {
+    field: 'has_projects',
+    headerName: 'Has Projects',
+    type: 'abColDefBoolean',
+  },
   { field: 'has_pages', headerName: 'Has Pages', type: 'abColDefBoolean' },
   {
     field: 'topics',
