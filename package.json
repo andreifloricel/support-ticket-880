@@ -9,7 +9,7 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,json,css,scss,md}\""
   },
   "dependencies": {
-    "@adaptabletools/adaptable-angular-aggrid": "^17.0.0-canary.11",
+    "@adaptabletools/adaptable-angular-aggrid": "^17.0.0",
     "@ag-grid-community/angular": "^30.2.1",
     "@ag-grid-community/client-side-row-model": "^30.2.1",
     "@ag-grid-community/core": "^30.2.1",
