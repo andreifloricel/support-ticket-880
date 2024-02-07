@@ -17,5 +17,6 @@
     ],
     "skipLibCheck": true,
     "useDefineForClassFields": false
-  }
+  },
+  "exclude": ["provided_files"]
 }

@@ -3,10 +3,26 @@ import { GridOptions, Module } from '@ag-grid-community/core';
 import {
   AdaptableApi,
   AdaptableOptions,
+  PredefinedConfig,
 } from '@adaptabletools/adaptable-angular-aggrid';
 import { rowData } from './rowData';
 import { RECOMMENDED_MODULES } from './agGridModules';
 import { columnDefs } from './columnDefs';
+
+const predefinedConfig: PredefinedConfig = {
+  Dashboard: {
+    ModuleButtons: ['FlashingCell'],
+    Tabs: [
+      {
+        Name: 'Default',
+        Toolbars: ['Export', 'QuickSearch', 'Application'],
+      },
+    ],
+  },
+  Theme: {
+    CurrentTheme: 'dark',
+  },
+};
 
 @Component({
   selector: 'my-app',
@@ -23,17 +39,7 @@ export class AppComponent {
     userName: 'demo-user',
     // licenseKey: <add_provided_license_key>,
     adaptableId: 'AdapTable Angular App',
-    predefinedConfig: {
-      Dashboard: {
-        Revision: Date.now(),
-        Tabs: [
-          {
-            Name: 'Default',
-            Toolbars: ['Layout', 'Query'],
-          },
-        ],
-      },
-    },
+    predefinedConfig,
   };
 
   constructor() {
